@@ -1,0 +1,271 @@
+body {
+    margin:0;
+    padding:0;
+    background: #f8faff!important;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.top-decorations {
+    /* position: fixed; */
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 10px;
+    background:url(../assets/images/top-decoration.png) repeat-x top center;
+    position: fixed;
+}
+.section-heading{
+  font-weight: 200;
+  font-size: 3.5em;
+  line-height:0.9em;
+  font-family: 'Raleway', sans-serif;
+}
+/* =========================== INTRO ================================== */
+#intro {
+   width: 100%;
+   height: 100%;
+   position: relative;
+   display: block;
+}
+.info {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.info .text-container {
+    position: relative;
+}
+.text-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+.intro-heading{
+  font-size: 5em;
+  padding:0;
+  margin:0;
+}
+.intro-title{
+  display:inline-flex;
+}
+.intro-bracket{
+  font-size: 4.5em;
+}
+.intro-subtitle{
+  margin-top: 1rem;
+}
+.row{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0!important;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.backstretch {
+    left: 0px;
+    top: 70px;
+    display: flex;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 780px;
+    width: 100%;
+    z-index: -999998;
+    position: absolute;
+}
+.intro-image {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    width: 1450px;
+    max-height: none;
+    max-width: none;
+    z-index: -999999;
+    top: 0px;
+}
+/* =========================== INTRO ENDS HERE ================================== */
+
+/* =========================== NAV STARTS HERE  ================================== */
+#nav {
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	position: absolute;
+	margin: 0 auto;
+  background-color: #f8faff;
+}
+#nav ul {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	/* display: inline-block; */
+	*display: inline;
+}
+#nav ul li {
+	padding: 0 8px;
+	line-height: 60px;
+	display: inline-block;
+	float: left;
+	text-transform: uppercase;
+}
+#nav ul li a {
+	display: block;
+	font-size: 0.938em;
+	letter-spacing: 0.1em;
+	color: #5b9bbc;
+	text-decoration: none;
+}
+#nav ul li a:hover{
+  color: #d81159;
+}
+#nav ul li a::after{
+  color: #fbb13c;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+  display: inline-block;
+}
+.logo {
+  text-align: left;
+  height: 3.5rem;
+  padding: 0;
+  margin: 0;
+  padding-top:0.4rem;
+}
+/* =========================== NAV ENDS HERE  ================================== */
+
+/* =========================== ABOUT STARTS HERE  ================================== */
+#aboutme{
+}
+.about-container {
+  background-color: #fff1e5;
+  padding-top: 4.5rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  padding-bottom: 4.5rem;
+}
+hr {
+ color: rgba(232,232,232,.53);
+ background-color: rgba(232,232,232,.53);
+}
+.about-row1{
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.about-row2{
+  display: inline-flex;
+  flex-direction: row;
+}
+.testimonials{
+  padding:1rem;
+  text-align:left;
+}
+.about-description {
+  margin: 2rem;
+  align-self: baseline;
+}
+.cartoon-image{
+  /* border-radius: 50%; */
+  height:20rem;
+}
+.value-heading{
+  text-transform: uppercase;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+#aboutme ul{
+  list-style: none;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+#aboutme ul li{
+  padding-bottom: 0.5rem;
+}
+/* =========================== ABOUT ENDS HERE  ================================== */
+
+/* =========================== PORTFOLIO STARTS HERE  ================================== */
+#portfolio{
+}
+.work-container {
+  background-color: #D2C8DD;;
+  height: 50rem;
+  padding-top: 6.5rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+#portfolio a{
+  color: #d81159;
+  text-decoration: none;
+}
+.projects-list{
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+.tile{
+  width:30%;
+  padding: 3.5rem;
+  align-items: center;
+  display: flex;
+}
+.project-icon{
+  width:20rem;
+}
+.project-description{
+  padding-top: 0.8rem;
+  font-size:1.3em;
+  display: inline-block;
+}
+/* =========================== PORTFOLIO ENDS HERE  ================================== */
+
+/* =========================== REEL STARTS HERE  ================================== */
+#reel{
+}
+.reel-row1{
+  display:inline-flex;
+  padding-top: 3rem;
+}
+.reel-description{
+  width: 33%;
+  padding-left: 2rem;
+}
+.reel-container {
+  background-color: #f7d1cd;
+  /* height: 50rem; */
+  padding-top: 6rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  padding-bottom: 6rem;
+}
+/* =========================== REEL ENDS HERE  ================================== */
+
+/* =========================== BOOTY STARTS HERE  ================================== */
+.booty-container a {
+  color: #d81159;
+  text-decoration: none;
+}
+.booty-container{
+  padding-top:3rem;
+  text-align: center;
+}
+/* =========================== BOOTY ENDS HERE  ================================== */
+
+/* =========================== FOOTER STARTS HERE  ================================== */
+.footer-wrap{
+  text-align:center;
+  padding-top:3rem;
+  padding-left:3rem;
+  padding-right:3rem;
+}
+/* =========================== FOOTER ENDS HERE  ================================== */
