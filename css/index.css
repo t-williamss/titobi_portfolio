@@ -214,18 +214,15 @@ hr {
   align-items: center;
 }
 .tile{
-  width:30%;
-  padding: 3.5rem;
-  align-items: center;
-  display: flex;
+  display:flex;
+  flex-direction: row;
 }
 .project-icon{
-  width:20rem;
+  width:24rem;
 }
 .project-description{
-  padding-top: 0.8rem;
   font-size:1.3em;
-  display: inline-block;
+  align-self:baseline;
 }
 /* =========================== PORTFOLIO ENDS HERE  ================================== */
 
