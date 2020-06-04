@@ -208,7 +208,7 @@ hr {
   text-decoration: none;
 }
 .projects-list{
-  display: flex;
+  /* display: inline-flex; */
   width: 100%;
 }
 .tile{
