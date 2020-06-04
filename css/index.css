@@ -208,21 +208,21 @@ hr {
   text-decoration: none;
 }
 .projects-list{
-  display: inline-flex;
-  flex-wrap: wrap;
+  display: flex;
   width: 100%;
-  align-items: center;
 }
 .tile{
   display:flex;
   flex-direction: row;
+  width:100%;
+  padding-bottom: 1rem;
 }
 .project-icon{
   width:24rem;
 }
 .project-description{
   font-size:1.3em;
-  align-self:baseline;
+  display: inline-flex;
 }
 /* =========================== PORTFOLIO ENDS HERE  ================================== */
 
