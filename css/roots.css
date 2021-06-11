@@ -1,3 +1,7 @@
 .project-result, .project-problem, .quote-row {
   background-color: #f0f4ff;
 }
+.section-heading{
+  color:#8EB8B6;
+  font-size: 2rem;
+}

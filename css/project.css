@@ -15,12 +15,11 @@ hr {
 .project-text-container{
   padding-left: 15rem;
   padding-right: 15rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 .project-header-img{
   width:100%;
-  margin-top:5rem;
 }
 .project-intro{
   display: inline-flex;
@@ -37,7 +36,6 @@ hr {
 }
 .project-variables{
   text-transform: uppercase;
-  /* color:grey; */
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
@@ -56,9 +54,6 @@ hr {
 .project-background{
 }
 .project-ideation{
-}
-.project-result, .project-problem, .quote-row{
-  background-color: #f0f4ff;
 }
 .bold-sentence{
   text-align: center;
@@ -96,6 +91,7 @@ hr {
 .other-projects{
   display:inline-flex;
   width:100%;
+  flex-wrap: wrap;
 }
 .other-project-img{
   margin:2rem;
@@ -109,4 +105,5 @@ hr {
   text-align:center;
   text-transform: uppercase;
   color:grey;
+  font-size: 1.8rem;
 }

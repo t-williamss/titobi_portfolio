@@ -1,6 +1,61 @@
-body{
-  font-family: work sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+.logo-home{
+  font-size: 2rem;
+  margin: 0.3rem;
+  text-decoration: underline;
 }
+
+/* =========================== NAV STARTS HERE  ================================== */
+#nav {
+text-align: end;
+}
+#nav ul {
+margin: 0 auto;
+padding: 0;
+}
+#nav ul li {
+padding: 0 8px;
+line-height: 60px;
+display: inline-block;
+float: left;
+text-transform: uppercase;
+}
+#nav ul li a {
+font-size: 0.938em;
+letter-spacing: 0.1em;
+color: #5b9bbc;
+text-decoration: none;
+}
+#nav ul li a:hover{
+color: #d81159;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+display: inline-block;
+}
+.logo {
+text-align: left;
+height: 3.5rem;
+padding: 0;
+margin: 0;
+padding-top:0.4rem;
+}
+/* =========================== NAV ENDS HERE  ================================== */
+
+/* =========================== FOOTER STARTS HERE  ================================== */
+.footer-wrap{
+  text-align:center;
+  padding-top:3rem;
+  padding-left:3rem;
+  padding-right:3rem;
+  }
+  /* =========================== FOOTER ENDS HERE  ================================== */
 
 body p{
   line-height:1.6em;
