@@ -94,10 +94,10 @@ hr {
   flex-wrap: wrap;
 }
 .tile{
-  margin:2rem;
+  margin:1rem;
 }
 .bottom-margin{
-  margin:6rem;
+  margin:3rem;
 }
 .other-project-img{
   width:35rem;
@@ -111,4 +111,11 @@ hr {
   text-transform: uppercase;
   color:grey;
   font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .bottom-margin{
+    display:none;
+  }
 }
