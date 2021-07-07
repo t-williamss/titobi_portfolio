@@ -43,5 +43,16 @@
   line-height: 1.8;
   font-size: 1.1rem;
 }
-/* =========================== ABOUT ENDS HERE  ================================== */
 
+@media only screen and (max-width: 1050px) {
+  .about-row{
+    flex-direction: row;
+  }
+  .about-container {
+    padding-top: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 4.5rem;
+  }
+}
+/* =========================== ABOUT ENDS HERE  ================================== */
