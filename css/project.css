@@ -113,9 +113,15 @@ hr {
   font-size: 1.8rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   /* For tablets: */
   .bottom-margin{
     display:none;
+  }
+  .project-text-container{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
   }
 }
