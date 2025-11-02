@@ -8,14 +8,8 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-		<!--
-			HOW TO USE THIS TEMPLATE:
-			1. Make a copy of this file and rename it (e.g., "my-new-review.html").
-			2. Change the "<title>" below to the title of your review.
-			3. Replace the content inside the <article> tag with your own review.
-			4. Open reviews.html and add a link to your new file.
-		-->
-		<title>Your Title Here</title>
+		<link href="css/review.css" rel="stylesheet">
+		<title>Review Title</title>
 			<nav id="nav">
 				<ul>
 					<li class="logo-home"><a href ="index.html">TOBI</a></li>
@@ -30,11 +24,22 @@
 			</nav>
 	</head>
 	<body>
-		<section id="review-piece">
-			<article>
-				<h1>Your Title Here</h1>
-				<p>Your content here...</p>
-			</article>
-		</section>
+		<div class="review-container">
+			<div class="review-sidebar">
+				<h2>Review Title</h2>
+				<p><strong>Episode Title:</strong> Episode Title</p>
+				<p><strong>Stars:</strong> <span class="stars">★★★★☆</span></p>
+				<p><strong>Grade:</strong> A-</p>
+			</div>
+			<div class="review-content">
+				<h1>Review Title</h1>
+				<p>Main review text goes here...</p>
+				<blockquote>
+					<p>"A quote from the thing being reviewed."</p>
+				</blockquote>
+				<h2>Final Thoughts</h2>
+				<p>Final thoughts go here...</p>
+			</div>
+		</div>
 	</body>
 </html>
