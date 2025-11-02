@@ -8,6 +8,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
+		<link href="css/modern-grid.css" rel="stylesheet">
 		<title>Reviews</title>
 			<nav id="nav">
 				<ul>
@@ -25,20 +26,41 @@
 	<body>
 		<section id="reviews">
 			<h1>Reviews</h1>
-			<!--
-				HOW TO ADD A NEW REVIEW:
-				1. Make a copy of the review-template.html file.
-				2. Rename the copied file (e.g., "my-new-review.html").
-				3. Open the new file and change the title and content.
-				4. Add a new <li> item below with a link to your new file.
-			-->
-			<ul>
-				<li><a href="review-post-1.html">Review of "The Midnight Gospel"</a></li>
-				<li><a href="review-post-2.html">Review of "Fleabag"</a></li>
-				<li><a href="review-post-3.html">Review of "Avatar: The Last Airbender"</a></li>
-				<li><a href="review-post-4.html">Review of "Stranger Things"</a></li>
-				<li><a href="review-post-5.html">Review of "Black Mirror"</a></li>
-			</ul>
+			<div class="post-preview">
+				<a href="review-post-1.html">
+					<h2>The Midnight Gospel</h2>
+					<img class="post-image" src="https://picsum.photos/seed/midnightgospel/800/400" alt="Psychedelic space scene">
+					<p class="post-snippet">A cosmic trip worth taking. A whirlwind of psychedelic visuals and profound, often hilarious, philosophical discussion.</p>
+				</a>
+			</div>
+			<div class="post-preview">
+				<a href="review-post-2.html">
+					<h2>Fleabag</h2>
+					<img class="post-image" src="https://picsum.photos/seed/fleabag/800/400" alt="A woman looking at the camera">
+					<p class="post-snippet">A masterful blend of comedy and tragedy. A raw, honest, and hilarious look at grief, love, and family.</p>
+				</a>
+			</div>
+			<div class="post-preview">
+				<a href="review-post-3.html">
+					<h2>Avatar: The Last Airbender</h2>
+					<img class="post-image" src="https://picsum.photos/seed/avatar/800/400" alt="A young boy with a staff">
+					<p class="post-snippet">A timeless classic. A masterful story of war, peace, and the power of friendship.</p>
+				</a>
+			</div>
+			<div class="post-preview">
+				<a href="review-post-4.html">
+					<h2>Stranger Things</h2>
+					<img class="post-image" src="https://picsum.photos/seed/strangerthings/800/400" alt="A group of kids on bikes">
+					<p class="post-snippet">A love letter to the 80s. A thrilling adventure that is as heartwarming as it is terrifying.</p>
+				</a>
+			</div>
+			<div class="post-preview">
+				<a href="review-post-5.html">
+					<h2>Black Mirror</h2>
+					<img class="post-image" src="https://picsum.photos/seed/blackmirror/800/400" alt="A shattered smartphone screen">
+					<p class="post-snippet">A dark and twisted look at the future. A thought-provoking and often unsettling exploration of technology and its impact on society.</p>
+				</a>
+			</div>
 		</section>
 	</body>
 </html>
